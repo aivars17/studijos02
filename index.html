@@ -3,114 +3,95 @@
 <head>
 	<title>Lietuva</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<style>
-		html, body {
-			padding: 0px;
-			margin:0px;
-			width: 100%;
-			height: 100%;
-			background-image: url("images/ruduo.jpg");
-		}
-		.header {
-			display: block;
-			width: 100%;
-			height: 300px;
-			background-color: lightgrey;
-		}
-		.h11 {
-			color: red;
-			right: 10px;
-			float: left;
-			top: 300px;
-		}
-		.geltona {
-			background-color: yellow;
-		}
-		.zale {
-			background-color: green;
-		}
-		.raudona {
-			background-color: red;
-		}
-		.flag {
-			height: 100px;
-			width: 200px;
-			position: absolute;
-			right: 10px;
-			top: 100px;
-
-		}
-		.turinys {
-			width: 100%;
-			height: 100%;
-			border: 0px solid black;
-			float: left;
-		}
-		.left {
-			width: 10%;
-			border: 0px solid black;
-			float: right;
-			padding: 10px 5px 0  5px;
-		}
-		.center {
-			width: 80%;
-			border: 0px solid black;
-			float: right;
-			background-color: white;
-			padding: 10px 5px 0 5px;
-		}
-		.right {
-			width: 10%;
-			border: 0px solid black;
-			padding: 10px 5px 0px 5px;
-		}
-		.miestai{
-			float: left;
-		}
-		.stat{
-			float: right;
-		}
+		@import url('https://fonts.googleapis.com/css?family=Anton|Nosifer');
 	</style>
 </head>
 <body>
-	<div class="header">
-		<div class="h11"><h1>Lietuva</h1></div>
-		<div class="flag">
-			<div class="geltona">&nbsp;</div>
-			<div class="zale">&nbsp;</div>
-			<div class="raudona">&nbsp;</div>
-		</div>
-	</div>
-	<div class="turinys">
-		<div class="left"></div>
-		<div class="center">
-			<h2>Istorija</h2>
-			<p><img src="images/Lithuania.png" alt="Smiley face" style="float:right;width:250px;height:200px;">Lietuvos (Lituae) vardas pirmą kartą paminėtas Kvedlinburgo analų 1009 m. kovo 9 d. įraše apie šv. Brunono žūtį. Tų pačių žinių (tik neminėdamas Lietuvos vardo) Titmaras Mezeburgietis datuoja 1009 m. vasario 14 d. Pastaroji data patikimesnė, nes Titmaras buvo Brunono giminaitis ir bendramokslis, bendravo su jo tėvu ir greičiausiai būtent jis parašė neišlikusią „Brunono darbų knygą“.
-			Kadangi Lietuvos vardas į šaltinius pateko tarpininkaujant slavams (greičiausiai lenkams), nulėmė ir tą formą, kuria jis buvo užrašytas – Lituae. Tai kilmininko linksnis, o vardininkas būtų Litua.
-			Labiausiai tikėtina, kad Lietuvos vardas iš pat pradžių jau reiškė giminingų lietuvių genčių apsijungimą, susiliejimą, kas ir davė pradžią pirminei Lietuvos žemei. Vėliau jau buvo priliejamos savo vardus istorijos šaltiniuose įamžinusios lietuvių gentys. Kai kurios jų netgi jėga tam apsijungimui pasipriešindavo.
-			Lietuvos vardo kilmė buvo išvedinėjama iš upelio pavadinimo Lietava. Šis pavadinimas buvo patvirtintas apklausus vietos gyventojus lietuvius, kurių Lietavos pakrantėse tikrai daug nėra. Prie pat upelio esančiame Perelozų bažnytkaimyje įsikūrusi rusų sentikių bendruomenė, kurios įtakoje ir išplito forma Letauka. Tačiau reikia pastebėti, kad Lietavos upelis neilgas (11 km), prie jo nėra jokių archeologijos paminklų, ir vargu ar galėjo kas ten būti nes vietovė buvo pelkėta. Sunku būtų paaiškinti kodėl Lietuvos vardas būtų kilęs būtent nuo šio upelio taigi šitą išvedžiojimą mokslininkai dažniausiai atmeta.
-			Simas Karaliūnas pasiūlė originalią hipotezę analizę, pagal kurią Lietuvos vardas siejamas su vokiečių kalbos žodžiu leiten (vesti, vadovauti). Šis žodis laikomas indoeuropiečių prokalbės vediniu, kuris anksčiau galėjęs būti ir lietuvių kalboje. Lietuvos vardas esą iš pradžių reiškęs kariauną ir tai patvirtina istoriniai šaltiniai.
-			Artūras Dubonis istoriniais duomenimis pagrindė teiginį, kad pirminių lietuvių etnonimo forma buvo leitis. Kad šaknis liet- kilusi iš leit -, kalbininkams buvo žinoma ir anksčiau. A. Dubonis įrodė, kad leičiais lietuviai dar buvo vadinami kai kuriuose XIV–XV a. šaltiniuose, o XV–XVI a. davė vardą specifiniam LDK valstiečių sluoksniui. Ypač iškalbingas Breslau (dab. Vroclavas) miesto tarybos nario Jono Šteinkelerio 1429 m. pranešimas iš Lucko suvažiavimo, kuriame kalbama apie Vytauto ketinimą karūnuotis leičių karaliumi (konyng der Leytten).</p>
-			<div class="miestai">
-				<ol>
-					<caption><strong>Miestai</strong></caption>
-					<li>Vilnius</li>
-					<li>Kaunas</li>
-					<li>Šiauliai</li>
-					<li>Klaipėda</li>
-				</ol>
-			</div>
-			<div class="stat">
-				<ul>
-					<caption><strong>Statistika 2015 metų</strong></caption>
-					<li>Plotas: 401km2. Gyventojų skaičius:543 060</li>
-					<li>Plotas: 157km2. Gyventojų skaičius:299 601</li>
-					<li>Plotas: 88km2. Gyventojų skaičius:103 775</li>
-					<li>Plotas: 98km2. Gyventojų skaičius:155 234</li>
-				</ul>
+	<div class="container-fluid">
+		<div class="row head">
+			<div class="lt col">Lietuva<i class="fa fa-rss" aria-hidden="true"></i></div>
+			<div class="a text-right col">
+				<a href="#">LT</a>
+				<a href="#">EN</a>
+				<a href="#">RU</a>
 			</div>
 		</div>
-		<div class="right"></div>
+	<div class="clear"></div>
+		<div class="row header">
+			<div class="h11 col-12 col-xl-10"><h1>Lietuva<i class="fa fa-cloud" aria-hidden="true"></i></h1></div>
+			<div class="flag col-12 col-xl-2">
+				<div class="geltona">&nbsp;</div>
+				<div class="zale">&nbsp;</div>
+				<div class="raudona">&nbsp;</div>
+			</div>
+		</div>
+	<div class="res"></div>
+	<div class="row turinys">
+		<div class="left col col-0"></div>
+		<div class="center col-md-12 col-xl-8 col-12">
+			<div class="row">
+				<div class="row bam"><div class="col"><h2>Istorija</h2></div></div>
+				<div class="row bam">
+					<div class="col">
+					<p class="par"><img class="paveik" src="images/Lithuania.png" alt="Smiley face" >Lietuvos (Lituae) vardas pirmą kartą paminėtas Kvedlinburgo analų 1009 m. kovo 9 d. įraše apie šv. Brunono žūtį. Tų pačių žinių (tik neminėdamas Lietuvos vardo) Titmaras Mezeburgietis datuoja 1009 m. vasario 14 d. Pastaroji data patikimesnė, nes Titmaras buvo Brunono giminaitis ir bendramokslis, bendravo su jo tėvu ir greičiausiai būtent jis parašė neišlikusią „Brunono darbų knygą“.
+					Kadangi Lietuvos vardas į šaltinius pateko tarpininkaujant slavams (greičiausiai lenkams), nulėmė ir tą formą, kuria jis buvo užrašytas – Lituae. Tai kilmininko linksnis, o vardininkas būtų Litua.
+					Labiausiai tikėtina, kad Lietuvos vardas iš pat pradžių jau reiškė giminingų lietuvių genčių apsijungimą, susiliejimą, kas ir davė pradžią pirminei Lietuvos žemei. Vėliau jau buvo priliejamos savo vardus istorijos šaltiniuose įamžinusios lietuvių gentys. Kai kurios jų netgi jėga tam apsijungimui pasipriešindavo.
+					Lietuvos vardo kilmė buvo išvedinėjama iš upelio pavadinimo Lietava. Šis pavadinimas buvo patvirtintas apklausus vietos gyventojus lietuvius, kurių Lietavos pakrantėse tikrai daug nėra. Prie pat upelio esančiame Perelozų bažnytkaimyje įsikūrusi rusų sentikių bendruomenė, kurios įtakoje ir išplito forma Letauka. Tačiau reikia pastebėti, kad Lietavos upelis neilgas (11 km), prie jo nėra jokių archeologijos paminklų, ir vargu ar galėjo kas ten būti nes vietovė buvo pelkėta. Sunku būtų paaiškinti kodėl Lietuvos vardas būtų kilęs būtent nuo šio upelio taigi šitą išvedžiojimą mokslininkai dažniausiai atmeta.
+					Simas Karaliūnas pasiūlė originalią hipotezę analizę, pagal kurią Lietuvos vardas siejamas su vokiečių kalbos žodžiu leiten (vesti, vadovauti). Šis žodis laikomas indoeuropiečių prokalbės vediniu, kuris anksčiau galėjęs būti ir lietuvių kalboje. Lietuvos vardas esą iš pradžių reiškęs kariauną ir tai patvirtina istoriniai šaltiniai.
+					Artūras Dubonis istoriniais duomenimis pagrindė teiginį, kad pirminių lietuvių etnonimo forma buvo leitis. Kad šaknis liet- kilusi iš leit -, kalbininkams buvo žinoma ir anksčiau. A. Dubonis įrodė, kad leičiais lietuviai dar buvo vadinami kai kuriuose XIV–XV a. šaltiniuose, o XV–XVI a. davė vardą specifiniam LDK valstiečių sluoksniui. Ypač iškalbingas Breslau (dab. Vroclavas) miesto tarybos nario Jono Šteinkelerio 1429 m. pranešimas iš Lucko suvažiavimo, kuriame kalbama apie Vytauto ketinimą karūnuotis leičių karaliumi (konyng der Leytten).</p>
+					</div>
+				</div>
+			</div>
+			<div class="res"></div>
+			<div class="row">
+				<div class="miestai col-xl-6 col-sm-12">
+					<ol>
+						<caption><h3>Miestai</h3></caption>
+						<li>Vilnius</li>
+						<li>Kaunas</li>
+						<li>Šiauliai</li>
+						<li>Klaipėda</li>
+					</ol>
+				</div>
+				<div class="stat col-xl-6 col-sm-12">
+					<ul>
+						<caption><h3>Statistika 2015 metų</h3></caption>
+						<li>Plotas: 401km2. Gyventojų skaičius:543 060</li>
+						<li>Plotas: 157km2. Gyventojų skaičius:299 601</li>
+						<li>Plotas: 88km2. Gyventojų skaičius:103 775</li>
+						<li>Plotas: 98km2. Gyventojų skaičius:155 234</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<img class="pav1 col-md-6 col-xl-6 col-sm-12" src="images/Lietuva-yra-brangi.jpg">
+				<img class="pav2 col-md-6 col-xl-6 col-sm-12" src="images/file59585853_5708ac7e.jpg">
+			</div>
+			
+			<div class="res ce"></div>
+				<div class="row">
+					<div class="col-12 bt">
+						<div class="row">
+							<div class="col"><button type="button">1</button></div>
+							<div class="col"><button type="button">2</button></div>
+							<div class="col"><button type="button">3</button></div>
+							<div class="col"><button type="button">4</button></div>
+							<div class="col"><button type="button">5</button></div>
+							<div class="col"><button type="button">6</button></div>
+							<div class="col"><button type="button">7</button></div>
+						</div>
+					</div>
+			</div>	
+		</div>
+		<div class="right col-xl-2 col-0"></div>
 	</div>
+	<div class="clear"></div>
+	<div class="row"><div class="footer col text-center">&#174;2017</div></div>	
+</div>
 </body>
 </html>

@@ -1,0 +1,116 @@
+ 
+		@media screen and (max-width: 1800px) {
+				.ce {
+					clear: both;
+				}
+			}
+		@keyframes headerr {
+		        0%   {background-color: red;}
+			    35%  {background-color: yellow;}
+			    65% {background-color: green;}
+			    100% {background-color: red;}
+		}
+ 		body {
+			
+			background-image: url("../images/ruduo.jpg");
+			
+		}
+		.header {
+			
+			background-color: lightgrey;
+			margin: auto;
+			animation-name: headerr;
+   			animation-duration: 4s;
+   			animation-iteration-count: infinite;
+		}
+		h1 {
+			color: black;
+			padding: 30px;
+			font-size: 50px;
+			float: left;
+			font-family: 'Nosifer', cursive;	
+		}
+		.geltona {
+			background-color: yellow;
+		}
+		.zale {
+			background-color: green;
+		}
+		.raudona {
+			background-color: red;
+		}
+		.flag {
+			padding: 20px;
+			
+		}
+		.par {
+			font-family: 'Anton', sans-serif;
+			padding: 10px;
+		}
+		h2 {
+			padding: 10px;
+		}
+		.center {
+			background-color: rgba(256,256,256,0.5);
+			padding: 10px 10px 10px 10px;
+		}
+		
+		.miestai{
+			float: left;
+		}
+		.stat{
+			float: right;
+		}
+		.pav1 {
+			clear: both;
+		}
+		.pav1, .pav2{
+			height: 250px;
+			padding: 10px;
+		}
+		.pav1 {
+			float: left;
+		}
+		.pav2 {
+			float: left;
+		}
+		.clear {
+			clear: both;
+		}
+		.footer {
+			text-align: center;
+			height: 20px;
+			background-color: lightgrey;
+		}
+		.head {
+			background-color: black;
+			color: white;
+		}
+		.a {
+			right: 10px;
+			top: 0;	
+			float: right;
+		}
+		.a a {
+			text-decoration: none;
+			color: white;
+		}
+		.lt {
+			
+		}
+		.a a:hover {
+			color: red;
+			text-decoration: none;
+		}
+		.paveik {
+			float:right;
+		
+			height:200px;
+		}
+		.bt {
+			float: left;
+		}
+		button {
+			padding: 50px;
+		}
+		
